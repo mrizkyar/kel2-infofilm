@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Info Tentang Film</title>
+</head>
+<body>
+    <p>Hello , Selamat datang di Info tentang film dimana info tentang film yang paling lengkap!<p>
+
+<h2>1.Tersanjung</h2>
+<img src="https://user-images.githubusercontent.com/61154986/74734511-ac200c00-5289-11ea-8af4-0cfce0ae9bb2.jpg" alt="Tersanjung" width="560" height="315">
+    <p>Yura menjalin hubungan dengan lelaki tampan bernama Christian mereka mengalami kisah cinta yang manis layaknya yang terjadi pada dua sejoli. Namun mereka terpaksa harus menjalani hubungan jarak jauh karena Chiristian harus pergi keluar negeri. Selama Chiristian berada di luar negeri, komunikasi mereka juga semakin renggang bahkan Christian tidak bisa dihubungi sama sekali. 
+       karena tak kunjung ada kabar Chiristian, orang tua angkat Yura menjodohkannya dengan seorang pria kaya raya bernama Oka. Tapi, Oka juga tidak tulus menyukai Yura, ia hanya menginginkan tubuh Yura bahkan damapai memperkosa Yura dan menyebabkannya positif hamil. ketika Yura meminta pertanggungjawaban dari Oka, Oka malah mengabaikan Yura. Diangkat dari sinetron legendaris dengan judul yang sama, film Tersanjung ini akan disutradarai oleh Hanung Bramantyo.<p>
+<body>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/rxCmd1mch9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2>2.Star Wars : Rise Of Skywalker</h2>
+<img src="https://foto.wartaekonomi.co.id/files/arsip_foto_2019_11_29/star_wars_234802_big.jpg" alt="Star Wars : Rise Of Skywalker" width="560" height="315">
+    <p>Kini First Order dipimpin oleh Kylo Ren (Adam Driver) setelah membunuh Supreme Leader Snoke (Andy Serkis). Ia sangat berambisi membuat First Order sangat kuat sehingga bernafsu menyerang Resistance.
+       Resistance berusaha bangkit untuk melawan First Order. Dalam trailer Star Wars: The Rise of Skywalker yang rilis beberapa waktu lalu terlihat Poe Dameron (Oscar Isaac) mulai mengumpulkan orang-orang untuk kembali membangun Resistance.
+       Salah satu orang yang membantu Resistance adalah Lando Calrissian (Billy Dee Williams), karakter lama yang pernah muncul dalam seri film Star Wars. Ia pernah muncul dalam Star Wars: The Empire Strikes Back (1980) dan Star Wars: Return of the Jedi (1983).
+       Dalam Star Wars: The Rise of Skywalker juga akan menyajikan pertempuran pemungkas antara light side dan dark side The Force. Untuk kali terakhir, Rey (Daisy Ridley) akan berhadapan dengan Kylo Ren, Jedi yang berpaling ke dark side The Force.
+       Misi itu tidak mudah bagi Rey karena ia masih belajar untuk menjadi Jedi seutuhnya. Ia harus belajar sendiri karena Luke Skywalker (Mark Hamill) meninggal pada akhir film Star Wars: The Last Jedi.
+       Di sisi lain, Rey selalu dihantui pertanyaan siapa kedua orang tuanya. Sejak kecil ia hidup sendiri di Jakku, planet yang sangat terpencil dan tidak disukai banyak orang.
+       Sementara itu, Ren mengaku mengetahui siapa kedua orang tua Rey. Ia mengatakan akan memberi tahu siapa orang tua Rey bila bergabung ke dark side of The Force.<p>
+<body>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/oCgvGErYQUE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
