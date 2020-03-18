@@ -1,59 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Info film</title>
+        <title>Film.in</title>
+        <link rel="stylesheet" type="text/css" href="sass/style.css">
     </head>
     <body>
-        <h1 align="center">Film.in</h1><br>
-        <marquee behavior="" direction="">
-            Website mengenai info film yang sedang hangat
-            dan menarik membantu anda dalam menonton film 
-         </marquee>
-        <table align="center">
-            <tr>
-                <th><button><a href="#">Home</a></button></th>
-                <th><button><a href="trending.html">Trending</a></button></th>
-                <th><button><a href="nowplaying.html">Now Playing</a></button></th>
-                <th><button><a href="coming.html">Coming Soon</a></button></th>
-                <th><input type="text" placeholder="Search.."></th>
-            </tr>
-        </table>
-        <br><br>
-        <table align="center">
-            <tr>
-                <td>
+        <header>
+            <!-- header -->
+            <h1>Film.in</h1>
+            <h4>
+                Website mengenai info film yang sedang hangat
+                dan menarik membantu anda dalam menonton film 
+            </h4>
+            
+            <nav class="navigasi">
+                <div class="nav-link">                
+                    <li><a href="#">Home</a></li>
+                    <li><a href="trending.html">Trending</a></li>
+                    <li><a href="nowplaying.html">Now Playing</a></li>
+                    <li><a href="coming.html">Coming Soon</a></li>
+                </div>
+               
+            </nav>
+        </header>
+        <main>
+            <!-- main -->
+                <div class="wrap">
+                    <div class="search">
+                        <input type="text" class="searchTerm" placeholder="Search..">
+                        <button type="submit" class="searchButton">
+                            Search
+                        </button>
+                    </div>
+                </div>
+                <section class="grid-film">
                     <a href="film1.html">   
-                        <img src="film1.jpg" alt="avenger" width="300" height="480">
+                        <img src="img/film1.jpg" alt="avenger" >
+                        <h2>AVENGER(2019)</h2>
                     </a>
-                </td>
-                <td>
                     <a href="film2.html">
-                        <img src="film2.jpg" alt="birds" width="300" height="480">
+                        <img src="img/film2.jpg" alt="birds">
+                        <h2>BIRDS OF PREY (2020)</h2>
                     </a>
-                </td>
-                <td>
                     <a href="film3.html">
-                        <img src="film3.jpg" alt="gundala" width="300" height="480">
+                        <img src="img/film3.jpg" alt="gundala">   
+                        <h2>GUNDALA (2019)</h2>
                     </a>
-                </td>
-            </tr>
-            <tr align="center">
-                <td>
-                    <a href="film1.html">
-                         Avenger
+                    <a href="film4.html">
+                        <img src="img/film4.jpeg" alt="Onward">   
+                        <h2>ONWARD(2020)</h2>
                     </a>
-                </td>
-                <td>
-                    <a href="film2.html">
-                        Birds of Prey
-                    </a>
-                </td>
-                <td>
-                    <a href="film3.html">
-                       Gundala
-                    </a>
-                </td>
-            </tr> 
-        </table>
+                </section>   
+        </main>
+        <footer>
+            <hr>
+                <div class="foot">
+                    <img src="img/ig.png">
+                    <img src="img/tw.png">
+                    <img src="img/fb.png">
+                    <h3>@film.in</h3>
+                </div>
+            <hr>
+        </footer>
     </body>
 </html>
