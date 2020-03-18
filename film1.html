@@ -1,49 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en"> 
     <head>
         <title>Film.in</title>
+        <link rel="stylesheet" type="text/css" href="sass/style.css">
     </head>
     <body>
-        <h1 align="center">Film.in</h1><br>
-        <marquee behavior="" direction="">
-            Website mengenai info film yang sedang hangat
-            dan menarik membantu anda dalam menonton film 
-         </marquee>
-        <table align="center">
-            <tr>
-                <th><button><a href="index.html">Home</a></button></th>
-                <th><button><a href="trending.html">Trending</a></button></th>
-                <th><button><a href="nowplaying.html">Now Playing</a></button></th>
-                <th><button><a href="coming.html">Coming Soon</a></button></th>
-                <th><input type="text" placeholder="Search.."></th>
-             </tr>
-        </table>
-        <br><br>
-        <table>
-            <tr align="center">
-                <td><img src="film1.jpg" width="=300"></td>
-            </tr>
-            <tr>
-                <td>
-                    <h1>Avenger:End Game(2019)</h1>
-                    <h2>Sinopsis</h2>
-                    Ketika musuh yang tak terduga muncul, mengancam keselamatan dan keamanan dunia, Nick Fury, direktur Badan Perdamaian
+        <header>
+            <!-- header -->
+            <h1>Film.in</h1>
+            <h4>
+                Website mengenai info film yang sedang hangat
+                dan menarik membantu anda dalam menonton film 
+            </h4>
+            
+            <nav class="navigasi">
+                <div class="nav-link">                
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="trending.html">Trending</a></li>
+                    <li><a href="nowplaying.html">Now Playing</a></li>
+                    <li><a href="coming.html">Coming Soon</a></li>
+                </div>
+               
+            </nav>
+        </header>
+        <main>
+            <section >
+                <div class="isi">
+                    <div class="content2">
+                        <img src="img/film1.jpg" alt="avenger">
+                    </div>
+                </div>
+
+                <h1 id="mid">Avenger:End Game(2018)</h1>
+                <h2>Sinopsis</h2>
+                <hr>
+                <p>Ketika musuh yang tak terduga muncul, mengancam keselamatan dan keamanan dunia, Nick Fury, direktur Badan Perdamaian
                     Internasional, dikenal sebagai S.H.I.E.L.D. , membutuhkan tim untuk menyelamatkan dunia dari bencana. Usaha perekrutan pun
                     dimulai Iron Man, Captain America, Hulk, Thor, Black Widow dan Hawkeye dikumpulkan untuk menaklukkan Dewa Kehancuran, Loki,
                     dalam usahanya menghancurkan bumi. Dengan semua gabungan kekuatan, tugas nampak lebih mudah. Namun kenyatannya tidak demikian!
                     Para pahlawan super justru saling melawan satu sama lain Hulk melawan Captain America, siapa yang akan menang? Apakah Iron Man
                     dapat mengalahkan kekuatan super milik Thor? Bagaimana para pahlawan super ini secara bersama-sama menghadapi bencana, melindungi masyarakat dan yang terpenting, bertahan hidup?
-                 </td>
-            </tr>
-            <tr>
-                <td><h1>Trailer</h1></td>
-            </tr>
-            <tr align="center">
-                <td>
-                   <<iframe width="560" height="315" src="https://www.youtube.com/embed/TcMBFSGVi1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </td>
-            </tr>
-
-        </table>
+                </p>
+                <hr>        
+                <h1>Trailer</h1>
+                <div class="isi">
+                    <iframe src="https://www.youtube.com/embed/TcMBFSGVi1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                
+            </section>    
+                <form id="komentar">
+                    <p>Konfirmasi </p>
+                    <input type="text" placeholder="Email Anda : ">
+                    <input type="password" placeholder="Passwords : ">
+                    <input type="submit" value="Masuk">
+                    <p>Tulis komentar</p>
+                    <textarea cols="60" rows="5"></textarea>
+                    <input type="submit" value="Postkan Komentar"/>
+                    
+                </form>
+        </main>
+        <footer>
+            <hr>
+                <div class="foot">
+                    <img src="img/ig.png">
+                    <img src="img/tw.png">
+                    <img src="img/fb.png">
+                    <h3>@film.in</h3>
+                </div>
+            <hr>
+        </footer>
     </body>
 </html>
