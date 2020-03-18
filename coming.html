@@ -1,63 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="en"> 
     <head>
         <title>Film.in</title>
+        <link rel="stylesheet" type="text/css" href="sass/style.css">
     </head>
     <body>
-        <h1 align="center">Film.in</h1><br>
-        <marquee behavior="" direction="">
-            Website mengenai info film yang sedang hangat
-            dan menarik membantu anda dalam menonton film 
-         </marquee>
-        <table align="center">
-            <tr>
-                <th><button><a href="index.html">Home</a></button></th>
-                <th><button><a href="trending.html">Trending</a></button></th>
-                <th><button><a href="nowplaying.html">Now Playing</a></button></th>
-                <th><button><a href="#">Coming Soon</a></button></th>
-                <th><input type="text" placeholder="Search.."></th> 
-             </tr>
-        </table>
-        <br><br>
-        <table>
-            <tr><h1>Coming Soon</h1></tr>
-            <tr>
-                <td><img src="coming1.jpg" width="300"></td>
-                <td>
-                    <h1>Sonic the Hedgehog (2020)</h1>
-                    <li>Tanggal Rilis : 26 Februari 2020 (Indonesia)</li>
-                    <li>Genre         : Action, Adventure, Comedy</li>
-                    <li>Director      : Jeff Fowler</li>
-                    <li>Penulis       : Patrick Casey, Josh Miller</li>
+        <header>
+            <!-- header -->
+            <h1>Film.in</h1>
+            <h4>
+                Website mengenai info film yang sedang hangat
+                dan menarik membantu anda dalam menonton film 
+            </h4>
+            
+            <nav class="navigasi">
+                <div class="nav-link">                
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="trending.html">Trending</a></li>
+                    <li><a href="nowplaying.html">Now Playing</a></li>
+                    <li><a href="coming.html">Coming Soon</a></li>
+                </div>
+               
+            </nav>
+        </header>
+        <main>
+            <div class="wrap">
+                <div class="search">
+                    <input type="text" class="searchTerm" placeholder="Search..">
+                    <button type="submit" class="searchButton">
+                        Search
+                    </button>
+                </div>
+            </div>
+            <h2>Coming Soon</h2>
+            <section class="grid-coming">
+                <div class="judul">
+                    <h3>1. Sonic the Hedgehog (2020)</h3>
+                    <img src="img/coming1.jpg" width="300">
+                </div>
+                <div class="content">
+                    <table>
+                        <tr>
+                            <th>Tanggal Rilis</th>
+                            <td><time datetime="2020-02-26">26 Februari 2020(Indonesia)</time></td>
+                        </tr>
+                        <tr>
+                            <th>Genre</th>
+                            <td>Action, Adventure, Comedy</td>
+                        </tr>
+                        <tr>
+                            <th>Director</th>
+                            <td>Jeff Fowler</td>
+                        </tr>
+                        <tr>
+                            <th>Penulis</th>
+                            <td>Patrick Casey, Josh Miller</td>
+                        </tr>
+                    </table>
                     <h1>Trailer</h1>
-                    <iframe width="400" height="170" src="https://www.youtube.com/embed/szby7ZHLnkA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </td>
-            </tr>
-            <tr>
-                <td><img src="coming2.jpg" width="300" alt=""></td>
-                <td>
-                    <h1>Black Widow (2020)</h1>
-                    <li>Tanggal Rilis : 29 April 2020 (Singapura)</li>
-                    <li>Genre         : Action, Adventure, Sci-Fi</li>
-                    <li>Director      : Cate Shortland</li>
-                    <li>Penulis       : Jac Schaeffer, Ned Benson</li>
-                    <h1>Trailer</h1>
-                    <iframe width="400" height="170" src="https://www.youtube.com/embed/RxAtuMu_ph4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </td>
-            </tr>
-            <tr>
-                <td><img src="coming3.jpg" width="300" alt=""></td>
-                <td>
-                    <h1>Minions: The Rise of Gru (2020)</h1>
-                    <li>Tanggal Rilis : 3 July 2020 (USA)</li>
-                    <li>Genre         : Animation, Adventure, Comedy</li>
-                    <li>Director      : Kyle Balda</li>
-                    <li>Penulis       : Brian Lynch, Matthew Fogel</li>
-                    <h1>Trailer</h1>
-                    <iframe width="400" height="250" src="https://www.youtube.com/embed/54yAKyNkK7w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </td>
-            </tr>
-
-        </table>
+                    <iframe src="https://www.youtube.com/embed/szby7ZHLnkA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="judul">
+                    <h3>2. Black Widow (2020)</h3>
+                    <img src="img/coming2.jpg" width="300" alt="">
+                </div>
+                <div class="content">
+                    <table>
+                        <tr>
+                            <th>Tanggal Rilis</th>
+                            <td><time datetime="2020-04-29">29 April 2020 (Singapura)</time></td>
+                        </tr>
+                        <tr>
+                            <th>Genre</th>
+                            <td>Action, Adventure, Sci-Fi</td>
+                        </tr>
+                        <tr>
+                            <th>Director</th>
+                            <td>Cate Shortland</td>
+                        </tr>
+                        <tr>
+                            <th>Penulis</th>
+                            <td>Jac Schaeffer, Ned Benson</td>
+                        </tr>
+                    </table>
+                    <h3>Trailer</h3>
+                    <iframe src="https://www.youtube.com/embed/RxAtuMu_ph4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <hr>
+                <div class="foot">
+                    <img src="img/ig.png">
+                    <img src="img/tw.png">
+                    <img src="img/fb.png">
+                    <h3>@film.in</h3>
+                </div>
+            <hr>
+        </footer>
     </body>
 </html>
