@@ -1,69 +1,87 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>
-body {
-  background-color: #DEAE25;
-}
-</style>
         <title>Film.in</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <h1 align="center">Film.in</h1><br>
-        <marquee behavior="" direction="">
-            Website mengenai info film yang sedang hangat
-            dan menarik membantu anda dalam menonton film 
-         </marquee>
-        <table align="center">
-            <tr>
-                <th><button><a href="index.html">Home</a></button></th>
-                <th><button><a href="trending.html">Trending</a></button></th>
-                <th><button><a href="#">Now Playing</a></button></th>
-                <th><button><a href="coming.html">Coming Soon</a></button></th>
-                <th><input type="text" placeholder="Search.."></th> 
-             </tr>
-        </table>
-        <br><br>
-        <table>
-            <tr>
-                <td>
-                    <a href="film1.html"><img src="film1.jpg" width="=200" height="250"></a>
-                </td>
-                <td>
-                    <li>
+        <header>
+            <!-- header -->
+            <h1>Film.in</h1>
+            <h4>
+                Website mengenai info film yang sedang hangat
+                dan menarik membantu anda dalam menonton film 
+            </h4>
+            
+            <nav class="navigasi">
+                <div class="nav-link">                
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="trending.html">Trending</a></li>
+                    <li><a href="nowplaying.html">Now Playing</a></li>
+                    <li><a href="coming.html">Coming Soon</a></li>
+                </div>
+            </nav>
+            
+        </header>
+        <main>
+            
+            <div class="wrap">
+                <div class="search">
+                    <input type="text" class="searchTerm" placeholder="Search..">
+                    <button type="submit" class="searchButton">
+                        Search
+                    </button>
+                </div>
+            </div>
+                <h2>Now Playing</h2>
+            <section class="film-grid">
+                <div class="film1">
+                    <a href="film1.html" class="play"><img src="img/film1.jpg"></a>
+                    <h4>
                         <a href="film1.html">Avenger End Game(2019)</a>
-                    </li>
-                    <li>Genre : Action</li>
-                    <li>Produser : Kevin Feige</li>
-                    <li>Produksi Marvel</li>
-                    <li>18+</li>
-                </td>
-                <td>
-                    <a href="film2.html"><img src="film2.jpg" width="=200" height="250"></a>
-                </td>
-                <td>
-                    <li>
+                    </h4>
+                    <ul>
+                        <li>Genre : Action</li>
+                        <li>Produser : Kevin Feige</li>
+                        <li>Produksi Marvel</li>
+                        <li>18+</li>
+                    </ul>
+                </div>
+                <div class="film2">
+                    <a href="film2.html" class="play"><img src="img/film2.jpg"></a> 
+                    <h4>
                         <a href="film2.html">Birds of Prey(2020)</a>
-                    </li>
-                    <li>Genre : Action</li>
-                    <li>Produser : Margot Robbie</li>
-                    <li>Produksi DC</li>
-                    <li>18+</li>
-                </td>
-                <td>
-                    <a href="film3.html"><img src="film3.jpg" width="=200" height="250"></a>
-                </td>
-                <td>
-                    <li>
+                    </h4>
+                    <ul> 
+                        <li>Genre : Action</li>
+                        <li>Produser : Margot Robbie</li>
+                        <li>Produksi DC</li>
+                        <li>18+</li>
+                    </ul>
+                </div>
+                <div class="film3"> 
+                    <a href="film3.html" class="play"><img src="img/film3.jpg"></a>     
+                    <h4>
                         <a href="film3.html">Gundala(2019)</a>
-                    </li>
-                    <li>Genre : Action</li>
-                    <li>Produser : Joko Anwar</li>
-                    <li>Produksi SCTV</li>
-                    <li>18+</li>
-                </td>
-            </tr>
-        </table>
-        
+                    </h4>
+                    <ul> 
+                        <li>Genre : Action</li>
+                        <li>Produser : Joko Anwar</li>
+                        <li>Produksi SCTV</li>
+                        <li>18+</li>
+                    </ul>
+                </div>
+            </section>           
+        </main>
+        <footer>
+            <hr>
+                <div class="foot">
+                    <img src="img/ig.png">
+                    <img src="img/tw.png">
+                    <img src="img/fb.png">
+                    <h3>@film.in</h3>
+                </div>
+            <hr>
+        </footer>
     </body>
 </html>
