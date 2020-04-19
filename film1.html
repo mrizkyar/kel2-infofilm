@@ -1,73 +1,106 @@
 <!DOCTYPE html>
-<html lang="en"> 
-    <head>
-        <title>Film.in</title>
-        <link rel="stylesheet" type="text/css" href="sass/style.css">
-    </head>
-    <body>
-        <header>
-            <!-- header -->
-            <h1>Film.in</h1>
-            <h4>
-                Website mengenai info film yang sedang hangat
-                dan menarik membantu anda dalam menonton film 
-            </h4>
-            
-            <nav class="navigasi">
-                <div class="nav-link">                
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="trending.html">Trending</a></li>
-                    <li><a href="nowplaying.html">Now Playing</a></li>
-                    <li><a href="coming.html">Coming Soon</a></li>
-                </div>
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+      <title>Film.in</title>
+      <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+      <script src = "https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+   </head>
+   <body>
+      <header>
+         <nav class="navbar is-dark ">
+            <div class="navbar-brand ">
+              <a class="navbar-item" href="index.html">Home</a>
+              <a class="navbar-item" href="trending.html">Trending</a>
+              <a class="navbar-item" href="nowplaying.html">Now Playing</a>
+              <a class="navbar-item" href="coming.html">Coming soon</a>
+            </div>
+            <div class="navbar-end navbar-item">
+                  <div class="field is-grouped">
+                     <p class="control is-expanded">
+                     <input class="input" type="text" placeholder="Search">
+                     </p>
+                     <p class="control">
+                        <a class="button is-white">
+                           Search
+                        </a>
+                     </p>
+                  </div>
+            </div>
+         </nav>
+      </header>
+      <main>
+            <div class="container content has-text-centered">
+                <h1>Avenger:End Game(2018)</h1>
+                <img src="img/film1.jpg" alt="avenger">
+            </div>
                
-            </nav>
-        </header>
-        <main>
-            <section >
-                <div class="isi">
-                    <div class="content2">
-                        <img src="img/film1.jpg" alt="avenger">
-                    </div>
-                </div>
 
-                <h1 id="mid">Avenger:End Game(2018)</h1>
-                <h2>Sinopsis</h2>
+                <hr>
+                <strong>Sinopsis</strong>
                 <hr>
                 <p>Ketika musuh yang tak terduga muncul, mengancam keselamatan dan keamanan dunia, Nick Fury, direktur Badan Perdamaian
-                    Internasional, dikenal sebagai S.H.I.E.L.D. , membutuhkan tim untuk menyelamatkan dunia dari bencana. Usaha perekrutan pun
-                    dimulai Iron Man, Captain America, Hulk, Thor, Black Widow dan Hawkeye dikumpulkan untuk menaklukkan Dewa Kehancuran, Loki,
-                    dalam usahanya menghancurkan bumi. Dengan semua gabungan kekuatan, tugas nampak lebih mudah. Namun kenyatannya tidak demikian!
-                    Para pahlawan super justru saling melawan satu sama lain Hulk melawan Captain America, siapa yang akan menang? Apakah Iron Man
-                    dapat mengalahkan kekuatan super milik Thor? Bagaimana para pahlawan super ini secara bersama-sama menghadapi bencana, melindungi masyarakat dan yang terpenting, bertahan hidup?
+                    Internasional, dikenal sebagai S.H.I.E.L.D. , membutuhkan tim untuk menyelamatkan dunia dari bencana. Usaha perekrutan pun dimulai Iron Man, Captain America, Hulk, Thor, Black Widow dan Hawkeye dikumpulkan untuk menaklukkan Dewa Kehancuran, Loki, dalam usahanya menghancurkan bumi. Dengan semua gabungan kekuatan, tugas nampak lebih mudah. Namun kenyatannya tidak demikian! Para pahlawan super justru saling melawan satu sama lain Hulk melawan Captain America, siapa yang akan menang? Apakah Iron Man dapat mengalahkan kekuatan super milik Thor? Bagaimana para pahlawan super ini secara bersama-sama menghadapi bencana, melindungi masyarakat dan yang terpenting, bertahan hidup?
                 </p>
                 <hr>        
-                <h1>Trailer</h1>
-                <div class="isi">
-                    <iframe src="https://www.youtube.com/embed/TcMBFSGVi1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <strong>Trailer</strong>
+                <hr>
+                <div class="container content has-text-centered">
+                     <iframe src="https://www.youtube.com/embed/TcMBFSGVi1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                
-            </section>    
-                <form id="komentar">
-                    <p>Konfirmasi </p>
-                    <input type="text" placeholder="Email Anda : ">
-                    <input type="password" placeholder="Passwords : ">
-                    <input type="submit" value="Masuk">
-                    <p>Tulis komentar</p>
-                    <textarea cols="60" rows="5"></textarea>
-                    <input type="submit" value="Postkan Komentar"/>
-                    
-                </form>
-        </main>
-        <footer>
-            <hr>
-                <div class="foot">
-                    <img src="img/ig.png">
-                    <img src="img/tw.png">
-                    <img src="img/fb.png">
-                    <h3>@film.in</h3>
-                </div>
-            <hr>
-        </footer>
-    </body>
+                <hr>
+        </main>  
+    	<form>
+       		<p>Konfirmasi </p>
+               <div class="field">
+                <p class="control has-icons-left has-icons-right">
+                  <input class="input" type="email" placeholder="Email">
+                <span class="icon is-small is-left">
+                  <i class="fas fa-envelope"></i>
+                </span>
+                <span class="icon is-small is-right">
+                  <i class="fas fa-check"></i>
+                </span>
+               </p>
+             </div>
+             <div class="field">
+               <p class="control has-icons-left">
+                <input class="input" type="password" placeholder="Password">
+                <span class="icon is-small is-left">
+                    <i class="fas fa-lock"></i>
+                </span>
+               </p>
+             </div>
+             <div class="field">
+               <p class="control">
+                 <button class="button is-success">
+                    Login
+                 </button>
+                </p>
+             </div>
+        	<p>Tulis komentar</p>
+            <div class="control">
+                <textarea class="textarea has-fixed-size" placeholder="Fixed size textarea"></textarea>
+            </div>
+            <div class="field">
+                <p class="control">
+                  <button class="button is-success">
+                     Post
+                  </button>
+                 </p>
+              </div>
+            
+        </form>
+    </main>
+    <footer class="footer">
+        <div class="content has-text-centered">
+           <p>
+              <strong>Film.in</strong> by Kelompok 2 
+           </p>
+           <img src="img/sosmed.png" width="128" height="50">
+           <p>@film.in</p>
+        </div>
+     </footer>
+  </body>
 </html>
