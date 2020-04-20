@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html id="abc">
-   <head>
+   <head id="abc">
       <meta charset = "utf-8">
       <meta name = "viewport" content = "width = device-width, initial-scale = 1">
       <title>Film.in</title>
       <link rel="icon" href="img/title.png" type="image/png" sizes="16x16">
       <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
       <script src = "https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
-      <script src="main.js" type="text/javascript"></script>
+      <script src="main.js" type="text/javascript" id="abc"></script>
    </head>
    <body>
       <header>
@@ -78,17 +78,11 @@
             </div>
             <div class="field">
                <p class="control">
-                 <button class="button is-success" onclick="kirim()" value="Komentar" >
-                    Post
-                 </button>
-                 <button class="button is-success" type="reset" onclick="kirim()" value="Komentar">
-                     Batal
-                  </button>
+                 <input type =" button " class="button is-success" onclick="kirim()" value="Komentar" >
+                 <input type="reset"  class="button is-success" onclick="kirim()" value="Batal">
                 </p>
              </div>
         </form>
-        <hr>
-        <strong>Komentar</strong>
     </main>
     <footer class="footer">
         <div class="content has-text-centered">
@@ -101,3 +95,4 @@
      </footer>
    </body>
 </html>
+
