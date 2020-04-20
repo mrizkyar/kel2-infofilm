@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html id="abc">
    <head>
       <meta charset = "utf-8">
       <meta name = "viewport" content = "width = device-width, initial-scale = 1">
@@ -11,32 +11,33 @@
    </head>
    <body>
       <header>
-         <nav class="navbar is-dark ">
-            <div class="navbar-brand ">
-              <a class="navbar-item" href="index.html">Home</a>
-              <a class="navbar-item" href="trending.html">Trending</a>
-              <a class="navbar-item" href="nowplaying.html">Now Playing</a>
-              <a class="navbar-item" href="coming.html">Coming soon</a>
-            </div>
-            <div class="navbar-end navbar-item">
-                  <div class="field is-grouped">
-                     <p class="control is-expanded">
-                     <input class="input" type="text" placeholder="Search">
-                     </p>
-                     <p class="control">
-                        <a class="button is-white">
-                           Search
-                        </a>
-                     </p>
-                  </div>
-            </div>
-         </nav>
-      </header>
+       <nav class="navbar is-dark">
+          <div class="navbar-brand ">
+            <a class="navbar-item" href="index.html">Home</a>
+            <a class="navbar-item" href="trending.html">Trending</a>
+            <a class="navbar-item" href="nowplaying.html">Now Playing</a>
+            <a class="navbar-item" href="coming.html">Coming soon</a>
+          </div>
+          <div class="navbar-end navbar-item">
+                <div class="field is-grouped">
+                   <p class="control is-expanded">
+                   <input class="input" type="text" placeholder="Search">
+                   </p>
+                   <p class="control">
+                      <a class="button is-white">
+                         Search
+                      </a>
+                   </p>
+                </div>
+          </div>
+       </nav>
       <main>
             <div class="container content has-text-centered">
                 <h1>Avenger:End Game(2018)</h1>
                 <img src="img/film1.jpg" alt="avenger">
             </div>
+               
+
                 <hr>
                 <strong>Sinopsis</strong>
                 <hr>
@@ -52,10 +53,10 @@
                 <hr>
         </main>  
     	<form>
-       		<p>Konfirmasi </p>
+         <p>Tulis komentar</p>
                <div class="field">
                 <p class="control has-icons-left has-icons-right">
-                  <input class="input" type="email" placeholder="Email">
+                  <input class="input" type="email" id="teks" placeholder="Email">
                 <span class="icon is-small is-left">
                   <i class="fas fa-envelope"></i>
                 </span>
@@ -66,32 +67,28 @@
              </div>
              <div class="field">
                <p class="control has-icons-left">
-                <input class="input" type="password" placeholder="Password">
+                <input class="input" type="password" id="teks" placeholder="Password">
                 <span class="icon is-small is-left">
                     <i class="fas fa-lock"></i>
                 </span>
                </p>
              </div>
-             <div class="field">
-               <p class="control">
-                 <button class="button is-success">
-                    Login
-                 </button>
-                </p>
-             </div>
-        	<p>Tulis komentar</p>
             <div class="control">
-                <textarea class="textarea has-fixed-size" placeholder="Fixed size textarea"></textarea>
+                <textarea class="textarea has-fixed-size" id="komen" placeholder="Komentar" wrap="virtual"></textarea>
             </div>
             <div class="field">
-                <p class="control">
-                  <button class="button is-success">
-                     Post
+               <p class="control">
+                 <button class="button is-success" onclick="kirim()" value="Komentar" >
+                    Post
+                 </button>
+                 <button class="button is-success" type="reset" onclick="kirim()" value="Komentar">
+                     Batal
                   </button>
-                 </p>
-              </div>
-            
+                </p>
+             </div>
         </form>
+        <hr>
+        <strong>Komentar</strong>
     </main>
     <footer class="footer">
         <div class="content has-text-centered">
@@ -102,5 +99,5 @@
            <p>@film.in</p>
         </div>
      </footer>
-  </body>
+   </body>
 </html>
