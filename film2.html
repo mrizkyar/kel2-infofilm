@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html id="abc">
    <head>
       <meta charset = "utf-8">
       <meta name = "viewport" content = "width = device-width, initial-scale = 1">
@@ -7,7 +7,7 @@
       <link rel="icon" href="img/title.png" type="image/png" sizes="16x16">
       <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
       <script src = "https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
-      <script src="main.js" type="text/javascript"></script>
+      <script src="main.js" type="text/javascript" id="abc"></script>
    </head>
    <body>
       <header>
@@ -55,11 +55,11 @@
                 </div>
                 <hr>
         </main>  
-    	<form>
-       		<p>Konfirmasi </p>
+        <form>
+         <p>Tulis komentar</p>
                <div class="field">
                 <p class="control has-icons-left has-icons-right">
-                  <input class="input" type="email" placeholder="Email">
+                  <input class="input" type="email" id="teks" placeholder="Email">
                 <span class="icon is-small is-left">
                   <i class="fas fa-envelope"></i>
                 </span>
@@ -70,30 +70,25 @@
              </div>
              <div class="field">
                <p class="control has-icons-left">
-                <input class="input" type="password" placeholder="Password">
+                <input class="input" type="password" id="teks" placeholder="Password">
                 <span class="icon is-small is-left">
                     <i class="fas fa-lock"></i>
                 </span>
                </p>
              </div>
-             <div class="field">
-               <p class="control">
-                 <button class="button is-success">
-                    Login
-                 </button>
-                </p>
-             </div>
-        	<p>Tulis komentar</p>
             <div class="control">
-                <textarea class="textarea has-fixed-size" placeholder="Komentar"></textarea>
+                <textarea class="textarea has-fixed-size" id="kepala" placeholder="Komentar" wrap="virtual"></textarea>
             </div>
             <div class="field">
-                <p class="control">
-                  <button class="button is-success">
-                     Post
+               <p class="control">
+                 <button class="button is-success" onclick="kirim()" value="Komentar" >
+                    Post
+                 </button>
+                 <button class="button is-success" type="reset" onclick="kirim()" value="Komentar">
+                     Batal
                   </button>
-                 </p>
-              </div>
+                </p>
+             </div>
             
         </form>
     </main>
