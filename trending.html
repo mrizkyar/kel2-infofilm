@@ -1,44 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Film.in</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+      <title>Film.in</title>
+      <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+      <script src = "https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+      <script src="main.js" type="text/javascript"></script>
+   </head>
+   
+   <body>
         <header>
-            <!-- header -->
-            <h1>Film.in</h1>
-            <h4>
-                Website mengenai info film yang sedang hangat
-                dan menarik membantu anda dalam menonton film 
-            </h4>
-            
-            <nav class="navigasi">
-                <div class="nav-link">                
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="trending.html">Trending</a></li>
-                    <li><a href="nowplaying.html">Now Playing</a></li>
-                    <li><a href="coming.html">Coming Soon</a></li>
-                </div>
-               
-            </nav>
-        </header>
-        <main>
-            <div class="wrap">
-                <div class="search">
-                    <input type="text" class="searchTerm" placeholder="Search..">
-                    <button type="submit" class="searchButton">
-                        Search
-                    </button>
-                </div>
+         <nav class="navbar is-dark ">
+            <div class="navbar-brand ">
+              <a class="navbar-item" href="index.html">Home</a>
+              <a class="navbar-item" href="trending.html">Trending</a>
+              <a class="navbar-item" href="nowplaying.html">Now Playing</a>
+              <a class="navbar-item" href="coming.html">Coming soon</a>
             </div>
-            <h2>Trending</h2>
-            <section class="grid-trending">
-                    <a href="film1.html" class="film">
-                        <img src="img/film1.jpg" alt="avenger" width="300">
+            <div class="navbar-end navbar-item">
+                  <div class="field is-grouped">
+                     <p class="control is-expanded">
+                     <input class="input" type="text" placeholder="Search">
+                     </p>
+                     <p class="control">
+                        <a class="button is-white">
+                           Search
+                        </a>
+                     </p>
+                  </div>
+            </div>
+         </nav>
+      </header>
+      <main>
+        <div class="container">
+            <strong>Trending</strong>
+            <div class="columns">
+                <div class="column">
+                    <strong>1. Avenger EndGame</strong>
+                    <a href="film1.html" class="box">
+                        <figure class="content has-text-centered image is-4by5">
+                            <img src="img/film1.jpg" alt="avenger">
+                        </figure>    
                     </a>
-                    <ul>
-                        <li><h2>1. Avanger</h2></a></li>
+                    <ul class = "box">
+                        <li><strong>Avenger : End Game</strong></li>
+                        <li><h2></h2></a></li>
                         <li>Rate : 9/10</li>
                         <li>Genre : Action</li>
                         <li>Country : USA</li>
@@ -49,24 +56,14 @@
                         </li>
                         <li><a href="film1.html">Selengkapnya...</a></li>
                     </ul>
-                    <a href="film2.html" class="film"><img src="img/film2.jpg" alt="birds" width="300"></a>
-                    <ul>
-                        <li><h2>2. Birds of Prey</h2></li>
-                        <li>Rate : 9/10</li>
-                        <li>Genre : Action</li>
-                        <li>Country : USA</li>
-                        <li>Sinposis : </li>
-                        <li><p>Setelah berpisah dengan Joker, Harley Quinn 
-                                (Margot Robbie) bergabung dengan Black Canary (Jurnee Smollett-Bell), Huntress (Mary Elizabeth Winstead) dan Renee Montoya (Rosie Perez) untuk menyelamatkan seorang gadis muda bernama Cassandra Cain (Ella Jay Basco) dari sosok penguasa 
-                                 yang dikenal sebagai Black Mask (Ewan McGregor).
-                            </p>
-                        </li>
-                        <li><a href="film2.html">Selengkapnya...</a></li>
-
-                    </ul>
-                    <a href="film3.html" class="film"><img src="img/film3.jpg" alt="gundala" width="300"></a>
-                    <ul>
-                        <li><h2>3. Gundala</h2></li>
+                    <strong>3. Gundala</strong>
+                    <a href="film1.html" class="box">
+                        <figure class="content has-text-centered image is-4by5">
+                            <img src="img/film3.jpg" alt="gundala">
+                        </figure>    
+                    </a>
+                    <ul class = "box">
+                        <li><strong>Gundala</strong></li>
                         <li>Rate : 9/10</li>
                         <li>Genre : Action</li>
                         <li>Country : INA</li>
@@ -80,18 +77,39 @@
                         <li><a href="film3.html">Selengkapnya...</a></li>
 
                     </ul>
-            </section>
-        </main>
-        <footer>
-            <hr>
-                <div class="foot">
-                    <img src="img/ig.png">
-                    <img src="img/tw.png">
-                    <img src="img/fb.png">
-                    <h3>@film.in</h3>
+                </div>        
+                <div class="column">
+                    <strong>2. Birds Of Prey</strong>
+                    <a href="film3.html" class="box">
+                        <figure class="content has-text-centered image is-4by5">
+                            <img src="img/film2.jpg" alt="bird">
+                        </figure>    
+                    </a>
+                    <ul class = "box">
+                        <li><strong>Birds of Prey</strong></li>
+                        <li>Rate : 9/10</li>
+                        <li>Genre : Action</li>
+                        <li>Country : USA</li>
+                        <li>Sinposis : </li>
+                        <li><p>Setelah berpisah dengan Joker, Harley Quinn 
+                                (Margot Robbie) bergabung dengan Black Canary (Jurnee Smollett-Bell), Huntress (Mary Elizabeth Winstead) dan Renee Montoya (Rosie Perez) untuk menyelamatkan seorang gadis muda bernama Cassandra Cain (Ella Jay Basco) dari sosok..
+                            </p>
+                        </li>
+                        <li><a href="film2.html">Selengkapnya...</a></li>
+                    </ul>
                 </div>
-            <hr>
-        </footer>
+             </div>
+            </div>
+        </main>
+        <footer class="footer">
+        <div class="content has-text-centered">
+           <p>
+              <strong>Film.in</strong> by Kelompok 2 
+           </p>
+           <img src="img/sosmed.png" width="128" height="50">
+           <p>@film.in</p>
+        </div>
+     </footer>
     </body>
 </html>
         
