@@ -8,6 +8,7 @@
       <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
       <script src = "https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
       <script src="main.js" type="text/javascript" id="abc"></script>
+      <script src="https://cdn.jsdelivr.net/npm/vue"></script>
    </head>
    <body>
       <header>
@@ -34,26 +35,29 @@
       </header>
       <main>
             <div class="container content has-text-centered">
-                <h1>Onward(2020)</h1>
-                <img src="img/film4.jpeg" alt="onward">
+                <h1>Gundala(2019)</h1>
+                <img src="img/film3.jpg" alt="gundala">
             </div>
                
 
                 <hr>
                 <strong>Sinopsis</strong>
                 <hr>
-                <p>
-                  film ini berkisah tentang dua bersaudara, Barley dan Ian Lightfoot, dalam menjalankan misi untuk menemukan kembali sisa-sisa keajaiban di dunia. Dahulu kala, dunia penuh dengan keajaiban. Namun, seiring berjalannya waktu, teknologi mulai berkembang hingga akhirnya sihir dan mantra mulai dilupakan. Hingga suatu hari, Ian dan Barley Lightfoot menerima sebuah misi untuk menemukan kembali sisa-sisa keajaiban tersebut demi menghabiskan satu hari bersama ayah mereka yang telah meninggal. Kisah dimulai saat Ian Lightfoot merayakan ulang tahunnya yang ke-16 dan mendapat hadiah spesial dari sang ayah yang telah meninggal bahkan saat Ian belum dilahirkan.
+                <p>Sancaka hidup di jalanan sejak ditinggal ayah dan ibunya. Menghadapi hidup yang keras, 
+                    Sancaka belajar untuk bertahan hidup dengan tidak peduli dengan orang lain dan hanya mencoba
+                    untuk mendapatkan tempat yang aman bagi dirinya sendiri. Ketika situasi kota semakin tidak 
+                    aman dan ketidakadilan merajalela di seluruh negeri, Sancaka harus buat keputusan yang berat, 
+                    tetap hidupdi zona amannya, atau keluar sebagai Gundala untuk membela orang-orang yang ditindas.
                 </p>
                 <hr>        
                 <strong>Trailer</strong>
                 <hr>
                 <div class="container content has-text-centered">
-                     <iframe src="https://www.youtube.com/embed/gn5QmllRCn4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                     <iframe src="https://www.youtube.com/embed/8rauD1vxMCw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <hr>
         </main>  
-        <form>
+        <form class="container">
          <p>Tulis komentar</p>
                <div class="field">
                 <p class="control has-icons-left has-icons-right">
@@ -84,6 +88,38 @@
                 </p>
              </div>
         </form>
+        <hr>
+        <strong>Komentar</strong><hr>
+        <div class="container">
+            <div id="comment">
+               <div v-for="comment in items">
+                  <div class="media-content">
+                     <div class="content">
+                        <p>
+                           <strong>{{ comment.user }} </strong>
+                           <br>
+                           {{ comment.isi }}
+                           <br>
+                        </p>
+                     </div>
+                  </div>
+
+               </div>
+
+            </div>
+        </div>
+        <script>
+           new Vue({
+              el: '#comment',
+              data: {
+                 items:[
+                    {user: "Rizky Al", isi: "Mantap filmnya saya suka"},
+                    {user: "irfan", isi: "Okelah buat liburan"},
+                    {user: "lutfi", isi: "Sangat menghibur"},
+                 ]
+              }
+           })
+        </script>
     </main>
     <footer class="footer">
         <div class="content has-text-centered">
