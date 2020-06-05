@@ -10,18 +10,22 @@
                <div class="columns">
                   <div class="column">
                      <figure class="image">
-                        <a class="box is-3by4 content has-text-centered" href="film1.html">
+                        <router-link to="/avenger">
+                        <a class="box is-3by4 content has-text-centered">
                            <img src="@/assets/img/film1.jpg">
                            <strong>Avenger (2019)</strong>
                         </a>
+                        </router-link>
                       </figure>
                   </div>
                   <div class="column">
                      <figure class="image">
-                        <a class="box is-3by4 content has-text-centered" href="film2.html">
+                        <router-link to="/birds">
+                        <a class="box is-3by4 content has-text-centered">
                            <img src="@/assets/img/film2.jpg">
                            <strong>Bird of Prey (2020)</strong>
                         </a>
+                        </router-link>
                       </figure>
                   </div>
                   <div class="column">

@@ -1,0 +1,42 @@
+{
+    "film" : [
+        {
+            "id": "0",
+            "abbr": "film1",
+            "name": "Avenger:End Game(2018)",
+            "sinopsis": "Ketika musuh yang tak terduga muncul, mengancam keselamatan dan keamanan dunia, Nick Fury, direktur Badan Perdamaian Internasional, dikenal sebagai S.H.I.E.L.D. , membutuhkan tim untuk menyelamatkan dunia dari bencana. Usaha perekrutan pun dimulai Iron Man, Captain America, Hulk, Thor, Black Widow dan Hawkeye dikumpulkan untuk menaklukkan Dewa Kehancuran, Loki, dalam usahanya menghancurkan bumi. Dengan semua gabungan kekuatan, tugas nampak lebih mudah. Namun kenyatannya tidak demikian! Para pahlawan super justru saling melawan satu sama lain Hulk melawan Captain America, siapa yang akan menang? Apakah Iron Man dapat mengalahkan kekuatan super milik Thor? Bagaimana para pahlawan super ini secara bersama-sama menghadapi bencana, melindungi masyarakat dan yang terpenting, bertahan hidup?",
+            "image": "img/film1.jpg",
+            "traoler": "https://www.youtube.com/embed/TcMBFSGVi1c",
+            "link": "/avenger"
+            
+        },
+        {
+            "id": "1",
+            "abbr": "film2",
+            "name": "Birds of Prey(2018)",
+            "sinopsis": "Setelah berpisah dengan Joker, Harley Quinn (Margot Robbie) bergabung dengan Black Canary (Jurnee Smollett-Bell), Huntress (Mary Elizabeth Winstead) dan Renee Montoya (Rosie Perez) untuk menyelamatkan seorang gadis muda bernama Cassandra Cain (Ella Jay Basco) dari sosok penguasa kejahatan yang dikenal sebagai Black Mask (Ewan McGregor).",
+            "image": "img/film2.jpg",
+            "trailer": "https://www.youtube.com/embed/kGM4uYZzfu0",
+            "link": "/birds"
+        },
+        {
+            "id": "2",
+            "abbr": "film3",
+            "name": "gundala",
+            "sinopsis": "Sancaka hidup di jalanan sejak ditinggal ayah dan ibunya. Menghadapi hidup yang keras,  Sancaka belajar untuk bertahan hidup dengan tidak peduli dengan orang lain dan hanya mencoba untuk mendapatkan tempat yang aman bagi dirinya sendiri. Ketika situasi kota semakin tidak  aman dan ketidakadilan merajalela di seluruh negeri, Sancaka harus buat keputusan yang berat, tetap hidupdi zona amannya, atau keluar sebagai Gundala untuk membela orang-orang yang ditindas.",
+            "image": "img/film3.jpg",
+            "trailer": "https://www.youtube.com/embed/8rauD1vxMCw",
+            "link": "/gundala"
+        },
+        {
+            "id": "3",
+            "abbr": "film4",
+            "name": "onward",
+            "sinopsis": "film ini berkisah tentang dua bersaudara, Barley dan Ian Lightfoot, dalam menjalankan misi untuk menemukan kembali sisa-sisa keajaiban di dunia. Dahulu kala, dunia penuh dengan keajaiban. Namun, seiring berjalannya waktu, teknologi mulai berkembang hingga akhirnya sihir dan mantra mulai dilupakan. Hingga suatu hari, Ian dan Barley Lightfoot menerima sebuah misi untuk menemukan kembali sisa-sisa keajaiban tersebut demi menghabiskan satu hari bersama ayah mereka yang telah meninggal. Kisah dimulai saat Ian Lightfoot merayakan ulang tahunnya yang ke-16 dan mendapat hadiah spesial dari sang ayah yang telah meninggal bahkan saat Ian belum dilahirkan.",
+            "image": "img/film4.jpeg",
+            "trailer":"https://www.youtube.com/embed/gn5QmllRCn4",
+            "link": "/onward"
+        }
+    ]
+
+}

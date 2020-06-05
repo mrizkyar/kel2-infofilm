@@ -4,7 +4,8 @@ import Home from '../views/Home.vue'
 import Trending from '../views/Trending.vue'
 import coming from '../views/coming.vue'
 import nowplaying from '../views/nowplaying.vue'
-
+import film1 from '../views/film.vue'
+import film2 from '../views/film2.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -27,7 +28,18 @@ const routes = [
     path: '/coming',
     name: 'coming',
     component: coming
+  },
+  {
+    path: '/avenger',
+    name: 'avenger',
+    component: film1
+  },
+  {
+    path: '/birds',
+    name: 'birds',
+    component: film2
   }
+
 ]
 
 const router = new VueRouter({
